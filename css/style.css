@@ -326,20 +326,27 @@ small.discount-text {
 }
 
 #newsletter-form {
+  height: 60px;
   border: 0;
+  padding: 10px auto;
 }
 .form-header p {
   font-size: 24px;
   width: 100%;
+  padding: 10px auto;
 }
 .form-section {
-  height: 450px;
+  height: auto;
   text-align: center;
-  padding: 4.5rem 0 4.5rem 0;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 3rem ; */
+
 }
 .form-box {
   width: 350px;
-  padding: 10px auto 10px auto;
+  padding: 4px;
+  margin: 10px auto;
 }
 h2.community-text {
   text-transform: uppercase;
@@ -363,6 +370,12 @@ a > svg {
 
 ul li a {
   text-decoration: none;
+}
+
+.bottom-footer{
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* @media (min-width: 475px) and (max-width: 600px){
